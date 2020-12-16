@@ -142,7 +142,7 @@ function Stay() {
 function end() {
     let winner = -1;
     let score = 0;
-    for(let i = 0; i < players.length; i++) {
+    for(let i = 0; i < 2; i++) {
         if (players[i].Points > score && players[i].Points > 22) {
             for (let i = 0; i < players[currentPlayer].Hand.length; i++) {
                 if (players[currentPlayer].Hand[i].Value === "A"){
@@ -154,8 +154,6 @@ function end() {
         }
             score = players[i].Points;
         }
-            console.log(players[winner])
-            document.getElementById('status').innerHTML = 'Winner: ' + players[winner].Name
             document.getElementById("status").style.display = "inline-block";
  }
 
