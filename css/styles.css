@@ -1,0 +1,74 @@
+#blackjack{
+	background-image: url("bg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 10px;
+	text-align:center;
+	height:95vh;
+}
+    
+.button {
+	border:none;
+	font-size: 30px;
+	padding: 10px 30px;
+	border-radius:10px;
+	background:black;
+	color:white;
+	border-radius:0px;	
+}
+    
+h1 {
+    background:black;
+    font-size: 50px;
+    color:gray;
+}
+
+.card {
+	width: 50px;
+	height: 80px;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	border:solid 3px;
+	color:white;
+	display: inline-block;
+	font-size: 25px;
+	text-align: center;
+	background: linear-gradient( to left top, black, gray);
+}
+    
+#status {
+	font-weight: bold;
+    	background: white;
+    	border: solid 5px black;
+    	border-radius: 10px;
+    	padding: 10px 10px;
+    	margin: 0 auto;
+    	display:none;
+}
+    
+#players {
+	width: 1000px;
+	margin-top: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+    
+.player {
+	font-size: 20px;
+	font-weight: bold;
+	width: 60%;
+	border: solid 5px #f5f5f5;
+	border-radius: 10px;
+	padding: 10px;
+	display: inline-block;
+	margin:30px;
+}
+    
+.points {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+}

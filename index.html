@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <script type="text"></script>
+        <title>BlackJack</title>
+</head>
+<body>
+        <div id="blackjack">
+            <h1>Blackjack</h3>
+                <div>
+                    <div>
+                        <input type="button" class="button" value="Start" onclick="startGame()">
+                        <input type="button" class="button" value="Hit" onclick="Hit()">
+                        <input type="button" class="button" value="Stay" onclick="Stay()">
+                    </div>
+                        <div class="status" id="status"></div>
+                        <div id="players"></div>
+                </div>
+        </div>
+</body>
+</html>
